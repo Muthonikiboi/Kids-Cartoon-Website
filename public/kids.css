@@ -8,6 +8,7 @@
     --white:white;
     --purple: purple;
     --pink: pink;
+    --green:green;
 }
 body{
     font-family: 'roboto', sans-serif;
@@ -22,7 +23,6 @@ body{
 .navbar-container{
     display: flex;
     align-items: center;
-    background-color:var(--pink);
     padding:0 50px;
     height: 100%;
     color: var(--white);
@@ -34,16 +34,45 @@ body{
 
 .logo{
     font-family: 'sen',sans-serif;
+    font-size: 30px;
+    color: var(--green);
 }
 
 .menu-container{
     flex: 3;
+}
 
+.menu-list{
+    display: flex;
+    list-style: none;
+}
+
+.menu-list-item{
+    margin-right: 30px;
+}
+
+.menu-list-item .active{
+    font-weight: bold;
 }
 
 .profile-container{
     flex: 2;
+    display: flex;
+    align-items: center;
 }
+
+.profile-text-container{
+    margin: 0 20px;
+}
+
+.profile-picture{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
 
 .sidebar{
     width:50px;
