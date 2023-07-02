@@ -9,6 +9,7 @@
     --purple: purple;
     --pink: pink;
     --green:green;
+    --goldenrod:goldenrod;
 }
 body{
     font-family: 'roboto', sans-serif;
@@ -59,7 +60,7 @@ body{
     flex: 2;
     display: flex;
     align-items: center;
-    background-color: var(--pink);
+    justify-content: flex-end;
 }
 
 .profile-text-container{
@@ -78,6 +79,24 @@ body{
     height: 20px;
     background-color:var(--white);
     border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    position: relative;
+}
+
+.toggle-icon{
+    color: var(--goldenrod) ;
+}
+
+.toggle-ball{
+    width: 18px;
+    height: 18px;
+    background-color: var(--black);
+    position: absolute;
+    right: 1px;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 .sidebar{
