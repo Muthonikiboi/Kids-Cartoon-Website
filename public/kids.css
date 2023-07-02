@@ -59,6 +59,7 @@ body{
     flex: 2;
     display: flex;
     align-items: center;
+    background-color: var(--pink);
 }
 
 .profile-text-container{
@@ -70,6 +71,13 @@ body{
     height: 35px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+.toggle{
+    width: 40px;
+    height: 20px;
+    background-color:var(--white);
+    border-radius: 30px;
 }
 
 .sidebar{
